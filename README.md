@@ -4,12 +4,12 @@ This repository holds binder configurations on seperate branches for tagged [pan
 
 It facilitates launching sessions on the [pangeo binderhub](https://github.com/pangeo-data/pangeo-binder) with a defined reproducible environment. For example if you want to run notebooks here https://github.com/pangeo-data/cog-best-practices with the `pangeo-notebook:2010.10.16` docker image, you'd use a  binder link to run either on AWS or GCP:
 
- * A https://aws-uswest2-binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2020.10.16?urlpath=git-pull?repo=https://github.com/pangeo-data/cog-best-practices%26amp%3Burlpath=lab
+ * https://aws-uswest2-binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2010.10.16?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Fpangeo-data%252Fcog-best-practices%26urlpath%3Dlab%252Ftree%252Fcog-best-practices%252F%26branch%3Dmain
 
- * https://binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2020.10.16?urlpath=git-pull?repo=https://github.com/pangeo-data/cog-best-practices%26amp%3Burlpath=lab
+ * https://binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2010.10.16?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Fpangeo-data%252Fcog-best-practices%26urlpath%3Dlab%252Ftree%252Fcog-best-practices%252F%26branch%3Dmain
 
 
-Notice the basic format is this: `[BINDERHUB_URL]/v2/gh/pangeo-data/notebook-binder/[TAG]?git-pull?repo=[GITHUB_REPO_WITH_NOTEBOOKS]`. But it's easy to have typos if you manully write out the link, so there is a nice webform to generate these links: https://jupyterhub.github.io/nbgitpuller/link
+Notice the basic format is this: `[BINDERHUB_URL]/v2/gh/pangeo-data/notebook-binder/[TAG]?git-pull?repo=[GITHUB_REPO_WITH_NOTEBOOKS]` with special URL encodings. But it's easy to have typos if you manully write out the link, so there is a nice webform to generate these links: https://jupyterhub.github.io/nbgitpuller/link
 
 
 #### How does this work?
@@ -29,5 +29,5 @@ If you don't point to a repository of notebooks, you'll end up in a jupyterhub s
 
 | AWS  | GCP | Packages |
 | ------------- | ------------- |  ------------- |
-|  [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=PangeoBinder+AWS&message=2020.10.16&color=orange)](https://aws-uswest2-binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2020.10.16?urlpath=lab) | [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=PangeoBinder+GCP&message=2020.10.16&color=blue)](https://binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2020.10.16?urlpath=lab)  | [link](https://github.com/pangeo-data/pangeo-docker-images/blob/2020.10.16/pangeo-notebook/packages.txt) |
-|  [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=PangeoBinder+AWS&message=2020.10.10&color=orange)](https://aws-uswest2-binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2020.10.10?urlpath=lab) | [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=PangeoBinder+GCP&message=2020.10.10&color=blue)](https://binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2020.10.10?urlpath=lab)  | [link](https://github.com/pangeo-data/pangeo-docker-images/blob/2020.10.10/pangeo-notebook/packages.txt) |
+|  [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=PangeoBinder+AWS&message=2020.10.16&color=orange)](https://aws-uswest2-binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2020.10.16?urlpath=lab) | [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=PangeoBinder+GCP&message=2020.10.16&color=blue)](https://binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2020.10.16?urlpath=lab)  | [2020.10.16](https://github.com/pangeo-data/pangeo-docker-images/blob/2020.10.16/pangeo-notebook/packages.txt) |
+|  [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=PangeoBinder+AWS&message=2020.10.10&color=orange)](https://aws-uswest2-binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2020.10.10?urlpath=lab) | [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=PangeoBinder+GCP&message=2020.10.10&color=blue)](https://binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2020.10.10?urlpath=lab)  | [2020.10.10](https://github.com/pangeo-data/pangeo-docker-images/blob/2020.10.10/pangeo-notebook/packages.txt) |
