@@ -2,14 +2,9 @@
 
 This repository holds binder configurations on seperate branches for tagged [pangeo-docker-images](https://github.com/pangeo-data/pangeo-docker-images/releases) pangeo-notebook releases.
 
-It facilitates launching sessions on the [pangeo binderhub](https://github.com/pangeo-data/pangeo-binder) with a defined reproducible environment. For example if you want to run notebooks here https://github.com/pangeo-data/cog-best-practices with the `pangeo-notebook:2020.10.16` docker image, you'd use a  binder link to run either on AWS or GCP:
+It facilitates launching sessions on the [pangeo binderhub](https://github.com/pangeo-data/pangeo-binder) with a defined reproducible environment. For example if you want to run notebooks here https://github.com/pangeo-data/cog-best-practices with the `pangeo-notebook:2020.10.16` docker image on AWS, you'd use this binder link:
 
  * **AWS Pangeo:** https://aws-uswest2-binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2020.10.16?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Fpangeo-data%252Fcog-best-practices%26urlpath%3Dlab%252Ftree%252Fcog-best-practices%252F%26branch%3Dmain
-
- * **GCP Pangeo:** https://binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2020.10.16?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Fpangeo-data%252Fcog-best-practices%26urlpath%3Dlab%252Ftree%252Fcog-best-practices%252F%26branch%3Dmain
- 
- * **MyBinder.Org:** https://mybinder.org/v2/gh/pangeo-data/notebook-binder/2020.10.16?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Fpangeo-data%252Fcog-best-practices%26urlpath%3Dlab%252Ftree%252Fcog-best-practices%252F%26branch%3Dmain
-
 
 Notice the basic format is this: `[BINDERHUB_URL]/v2/gh/pangeo-data/notebook-binder/[TAG]?git-pull?repo=[GITHUB_REPO_WITH_NOTEBOOKS]` with special URL encodings. 
 
@@ -36,3 +31,4 @@ If you don't point to a repository of notebooks, you'll end up in a jupyterhub s
 |  [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=PangeoBinder&message=2020.10.16&color=orange)](https://aws-uswest2-binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2020.10.16?urlpath=lab) | [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=PangeoBinder&message=2020.10.16&color=blue)](https://binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2020.10.16?urlpath=lab)  | [2020.10.16](https://github.com/pangeo-data/pangeo-docker-images/blob/2020.10.16/pangeo-notebook/packages.txt) |
 |  [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=PangeoBinder&message=2020.10.10&color=orange)](https://aws-uswest2-binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2020.10.10?urlpath=lab) | [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=PangeoBinder&message=2020.10.10&color=blue)](https://binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2020.10.10?urlpath=lab)  | [2020.10.10](https://github.com/pangeo-data/pangeo-docker-images/blob/2020.10.10/pangeo-notebook/packages.txt) |
 |  [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=PangeoBinder&message=2020.10.08&color=orange)](https://aws-uswest2-binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2020.10.08?urlpath=lab) | [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=PangeoBinder&message=2020.10.08&color=blue)](https://binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2020.10.08?urlpath=lab)  | [2020.10.08](https://github.com/pangeo-data/pangeo-docker-images/blob/2020.10.08/pangeo-notebook/packages.txt) |
+|  [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=PangeoBinder&message=2020.09.13&color=orange)](https://aws-uswest2-binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2020.09.13?urlpath=lab) | [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=PangeoBinder&message=2020.09.13&color=blue)](https://binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2020.09.13?urlpath=lab)  | [2020.09.13](https://github.com/pangeo-data/pangeo-docker-images/blob/2020.09.13/pangeo-notebook/packages.txt) |
