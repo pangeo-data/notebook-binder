@@ -28,6 +28,8 @@ If you don't point to a repository of notebooks, you'll end up in a jupyterhub s
 
 | AWS  | GCP | Packages |
 | ------------- | ------------- |  ------------- |
+|  [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=PangeoBinder&message=2021.05.04&color=orange)](https://aws-uswest2-binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2021.05.04?urlpath=lab) | [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=PangeoBinder&message=2021.05.04&color=blue)](https://binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2021.05.04?urlpath=lab)  | [2021.05.04](https://github.com/pangeo-data/pangeo-docker-images/blob/2021.05.04/pangeo-notebook/packages.txt) |
+
 |  [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=PangeoBinder&message=2021.03.06&color=orange)](https://aws-uswest2-binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2021.03.06?urlpath=lab) | [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=PangeoBinder&message=2021.03.06&color=blue)](https://binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2021.03.06?urlpath=lab)  | [2021.03.06](https://github.com/pangeo-data/pangeo-docker-images/blob/2021.03.06/pangeo-notebook/packages.txt) |
 
 |  [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=PangeoBinder&message=2021.02.02&color=orange)](https://aws-uswest2-binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2021.02.02?urlpath=lab) | [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=PangeoBinder&message=2021.02.02&color=blue)](https://binder.pangeo.io/v2/gh/pangeo-data/notebook-binder/2021.02.02?urlpath=lab)  | [2021.02.02](https://github.com/pangeo-data/pangeo-docker-images/blob/2021.02.02/pangeo-notebook/packages.txt) |
